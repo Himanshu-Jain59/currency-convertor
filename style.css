@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: o;
+}
+body {
+  background-color: #d16d8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.container {
+  background-color: #d9abab;
+  padding: 1rem;
+  height: min-content;
+  width: 20rem;
+  border: none;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.container p {
+  font-size: 1.2rem;
+}
+#Amount {
+  background-color: #f4d9d0;
+  line-height: 1.5rem;
+  width: 97.5%;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  margin-top: 0.7rem;
+  padding-left: 0.5rem;
+}
+#dropdown {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1.5rem 0 1.5rem;
+  text-align: center;
+}
+#drodown img {
+  height: 4rem;
+  width: 6rem;
+}
+#from {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#to {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.select {
+  text-align: center;
+  background-color: #f4d9d0;
+  border-radius: 1rem;
+  width: 6rem;
+  height: 1.5rem;
+  border: none;
+  outline: none;
+}
+.msg {
+  align-self: center;
+}
+button {
+  width: 90%;
+  align-self: center;
+  height: 2rem;
+  border: none;
+  background-color: #f4d9d0;
+  border-radius: 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}

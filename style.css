@@ -70,7 +70,7 @@ body {
 .msg {
   align-self: center;
 }
-button {
+#convert {
   width: 90%;
   align-self: center;
   height: 2rem;
@@ -79,4 +79,9 @@ button {
   border-radius: 1rem;
   font-size: 1rem;
   margin-top: 1rem;
+}
+#cross {
+  background-color: #d9abab;
+  outline: none;
+  border: none;
 }

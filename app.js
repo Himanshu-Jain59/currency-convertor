@@ -8,7 +8,7 @@ const amount = document.querySelector("#Amount");
 const fromCurr = document.querySelector("#from select");
 const toCurr = document.querySelector("#to select");
 const msg = document.querySelector(".msg");
-const btn = document.querySelector("button");
+const btn = document.querySelector("#convert");
 
 for (let select of dropdowns) {
   for (curCode in countryList) {

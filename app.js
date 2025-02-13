@@ -49,11 +49,9 @@ window.addEventListener("load", () => {
 });
 
 cross.addEventListener("click", () => {
-  let from = toCurr.value;
-  let to = fromCurr.value;
-
-  fromCurr.value = from;
-  toCurr.value = to;
+  let temp = toCurr.value;
+  toCurr.value = fromCurr.value;
+  fromCurr.value = temp;
 
   updateFlag(fromCurr);
   updateFlag(toCurr);

@@ -13,7 +13,6 @@ const btn = document.querySelector("#convert");
 for (let select of dropdowns) {
   for (curCode in countryList) {
     let newOption = document.createElement("option");
-    // console.log(newOption);
     newOption.innerText = curCode;
     newOption.value = curCode;
     if (select.name == "from" && curCode == "USD") {
@@ -22,11 +21,6 @@ for (let select of dropdowns) {
       newOption.selected = "selected";
     }
     select.append(newOption);
-
-    // cross.addEventListener("click", () => {
-    //   let from = toCurr.value;
-    //   let to = fromCurr.value;
-    // });
   }
   select.addEventListener("change", (evt) => {
     updateFlag(evt.target);
@@ -63,6 +57,8 @@ cross.addEventListener("click", () => {
 
   updateFlag(fromCurr);
   updateFlag(toCurr);
+
+  getExchangeRate();
 });
 
 btn.addEventListener("click", () => {

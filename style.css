@@ -80,8 +80,10 @@ body {
   font-size: 1rem;
   margin-top: 1rem;
 }
+
 #cross {
   background-color: #d9abab;
   outline: none;
   border: none;
+  font-size: larger;
 }
